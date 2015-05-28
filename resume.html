@@ -1,0 +1,156 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Resume</title>
+	<link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+<script>
+
+$(document).ready(function(){
+	$("#menu1").click(function() {
+			$("#workExperience").show();
+			$("#projects").hide();
+			$("#education").hide();
+		});
+
+	$("#menu2").click(function() {
+			$("#projects").show();
+			$("#workExperience").hide();
+			$("#education").hide();
+		});
+
+	$("#menu3").click(function() {
+			$("#education").show();
+			$("#projects").hide();
+			$("#workExperience").hide();
+		});
+
+});
+
+</script>
+</head>
+
+<body>
+<div class="container clear-top" id="wrapper">
+	<div class="row">
+		<div class="col-md-6" id="namework">
+			<h1>Anna Teglassy</h1>
+			<h2>junior front-end developer / painter</h2>
+		</div>
+		<nav class="col-md-6 text-uppercase" id="jobb">
+			<a href="index.html">Home</a>
+			<a href="resume.html">Resume</a>
+			<a href="paintings.html">Paintings</a>
+		</nav>
+	</div>
+
+	<hr>
+
+	<div class="row" id="menu">
+		<div class="col-xs-4 col-sm-4">
+			<a href="#" class="circle"><div id="menu1">Work Experience</div></a>
+		</div>
+		<div class="col-xs-4 col-sm-4">
+			<a href="#" class="circle"><div id="menu2">Projects</div></a>
+		</div>
+		<div class="col-xs-4 col-sm-4">
+			<a href="#" class="circle"><div id="menu3">Education/Skills</div></a>
+		</div>
+	</div>
+
+<hr>
+
+	
+		<div class="row">
+			<div class="col-lg-8">
+			<div class="details" id="workExperience">
+				<h4>Work Experience</h4>
+				<p></br><h5>Veres Péter Secondary School, Budapest</h5>
+				Drawing teacher</br>
+				<i>2011-2013</i></br>
+				I was giving drawing lessons in secondary school, organizing workshops.
+				<a href="http://www.verespg.hu/">www.verespg.hu</a></p></br>
+
+				<p><h5>BAŞAK KÜLTÜR VE SANAT VAKFI, Istanbul</h5>
+				Art teacher</br>
+				<i>2014</i></br>
+				Organizing art and English workshops for children, managing the website of the foundation.</br>
+				<a href="http://basaksanatvakfi.org.tr/Homepage">www.basaksanatvakfi.org</a>
+				</p></br>
+			
+				<p><h5>Varga Imre Gallery, Budapest</h5>
+				Art workshop organizer</br>
+				<i>2012-2014</i></br>
+				Organizing regularly /fine art workshops in the gallery.</br>
+				<a href="http://budapestgaleria.hu/_/varga-imre-gyujtemeny-informaciok/">www.budapestgaleria.hu/_/varga-imre-gyujtemeny-informaciok/</a></p>
+			</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-lg-8">
+			<div hidden class="details" id="projects">
+				<h4>Projects</h4></br>
+				<p><h5>Django Girls Budapest</h5>
+					<i>2015</i></br>
+					I'm a co-organizer of the one day coding workshop at Budapest. This is an opportunity for women in every ages, they can meet with Python and create a simple blog with framework Django. This can be an inspiration to show them it is easy to learn programming if they are motivated and persistent.</br>
+					<a href="http://djangogirls.org/budapest_en/"> www.djangogirls.org/budapest</a>	</br></p></br>
+
+				<p><h5>Art camp, Budapest</h5>
+					<i>2012-2015</i></br>
+					I help to organize a camp in a gallery at Budapest every summer. These are nice weeks when we create with children simple sculptures and drawings with millboard.</br>
+					<a href="https://www.facebook.com/Alkotonapok?fref=ts">www.facebook.com/Alkotonapok</a></br>
+					</p></br>
+				
+				<p><h5>Tale illustrator</h5>
+					<i>2014-2015</i></br>
+					I'm illustrating tales and poems for one of my friend, and managing the blog about these tales.</br>
+					<a href="http://www.tundemamamesei.blogspot.hu">www.tundemamamesei.blogspot.hu</a></br>
+				</p></br>
+			</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-lg-8">
+			<div hidden class="details" id="education">
+			<h4>Education</h4>
+			<p>
+				University of Pecs - Painting Department</br>
+				<i>2007-2011</i>
+			</p></br>
+			
+				<h4>Technical Skills</h4></br>
+			<p>
+				As I was studying fine arts, I have learned to treat some Adobe Products: Photoshop, Illustrator, Flash
+				I have knowledge in web editing: HTML5, CSS3 and Bootstrap
+				I got some fresh programming skills at JavaScript, Jquery, Python and Django
+			</p>
+			</div>
+			</div>
+		</div>
+
+</div>
+
+
+
+
+<div class="container-fluid" id="foot">
+	<div class="container">
+	<div class="row" id="icons">
+		
+		<div class="col-md-2" id="ic"><a href="http://www.annateglassy.tumblr.com"><img src="images/website.png" class="img-responsive" width="50%"></a></div>
+		<div class="col-md-2" id="ic"><a href="mailto:teglanna@gmail.com?Subject=Hello%20Anna" target="_top"><img src="images/email.png" class="img-responsive" alt="mailto" width="50%"></a></div>
+		<div class="col-md-2" id="ic"><a href="https://www.facebook.com/teglassy.anna"><img src="images/fb.png" class="img-responsive" alt="facebook-img" width="50%"></a></div>
+		<div class="col-md-2" id="ic"><a href="https://github.com/teglanna"><img src="images/github.png" class="img-responsive" alt="github-img" width="50%"></a></div>
+		<div class="col-md-2" id="ic"><a href="https://twitter.com/teglanna"><img src="images/twitter.png" class="img-responsive" alt="twitter-img" width="50%"></a></div>
+		<div class="col-md-2" id="ic"><a href="https://hu.linkedin.com/pub/anna-teglassy/b4/4a5/9b5"><img src="images/linkedin.png" class="img-responsive" alt="g+-img" width="50%"></a></div>
+	</div>
+	</div>
+</div>
+</body>
+</html>

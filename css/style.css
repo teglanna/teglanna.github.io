@@ -1,0 +1,198 @@
+html,body{
+    height: 100%
+}
+body {
+	font-family: Ubuntu;
+	color: #5A5A5A;
+	font-size: 17px;
+	  background: #DDDDDD;
+
+}
+h1 {
+font-size: 30px;
+margin-bottom: 5px;
+margin-top: 40px;
+}
+h2 {
+  font-size: 20px;
+  font-weight: normal;
+  margin-top: 0;
+}
+h5 {
+  font-size: 17px;
+}
+h4, h5 {
+	font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: #7CA3F7;
+}
+hr {
+  max-width: 920px;
+  color: #5A5A5A;
+}
+
+#wrapper {
+	min-height: 100%;
+	position: relative;
+}
+
+#namework {
+  padding-left: 120px;
+  }
+
+#jobb {
+	padding-right: 120px;
+	text-align: right;
+}
+
+#jobb a {
+  padding: 10px 15px;
+  color: #5A5A5A;
+  line-height: 1.2em;
+  font-size: 16px;
+  }
+
+@media (max-width: 768px) {
+	#jobb a {
+    text-align: center;
+    display: block;
+  }
+ 
+  #namework {
+  	padding-left: 0;
+  	text-align: center;
+  	display: block;
+  }
+}
+
+#main {
+  margin-bottom: -70;
+  display: flex;
+}
+#content {
+  max-height: 200px;
+}
+
+#foot {
+  	background: #7CA3F7;
+	max-height: 100px;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  left: 0;
+  right: 0;
+}
+
+@media (min-width: 992px) {
+	#jobb {
+		padding-top: 80px;
+
+	}
+	.details {
+		padding-left: 100px;
+	}
+	#icons {
+		padding-left: 120px;
+	}
+	#main {
+		padding-left: 100px;
+		padding-top: 20px;
+	}
+  hr {
+      margin-left: 100px;
+  }
+  #paintings {
+      padding-left: 120px;
+  }
+}
+
+#main img {
+	margin-left: 80px;
+  margin-top: 80px;
+  vertical-align: middle;
+}
+
+#main p {
+  max-width: 500px;
+  line-height: 2em;
+  padding-bottom: 20px;
+}
+
+#main span {
+	color: #fff;
+	font-size: 40px;
+}
+
+/*resume*/
+.circle {
+  display:block;
+  width:120px;
+  height:120px;
+  line-height: 120px;
+  border-radius:50%;
+  font-size:15px;
+  background:#7CA3F7;
+  color: #fff;
+  text-align: center;
+  /*it will be align center widht margins:*/
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.circle:hover {
+  color:#ccc;
+  background:#333;
+}
+
+#menu {
+	display: flex;
+	padding-top: 10px;
+}
+
+.details {
+  padding-bottom: 30px;
+}
+
+#education ul {
+  list-style-type: none;
+  min-width: auto;
+}
+
+#education ul li {
+  line-height: 1.8em;
+}
+
+}
+@media (min-width: 1200px) {
+	.details {
+		padding-left: 120px;
+	}
+}
+
+#icons {
+	display: flex;
+}
+
+#icons img {
+	margin-left: auto;
+	margin-right: auto;
+}
+#icons #ic {
+	max-width: 150px;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+#paintings {
+  padding-top: 30px;
+}
+#paintings td {
+  text-align: center;
+  padding: 10px;
+}
+
+
+
