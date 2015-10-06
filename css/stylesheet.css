@@ -482,9 +482,10 @@ footer img {
 @media screen and (min-width: 450px) {
   #gallery {
     width: 100%;
+    padding-left: 10px;
   }
   #gallery li {
-    width: 48%;
+    width: 46%;
     margin-right: 8px;
     float: left;
     position: relative;
