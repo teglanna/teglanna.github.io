@@ -2,18 +2,20 @@
 <html>
 	<head>
 		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Art works</title>
-		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/stylesheet.css">
 		<link rel="stylesheet" href="css/lightbox.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="js/create.js"></script>
+		<script src="js/lightbox.js"></script>		
 		<script src="js/script.js"></script>
-		<script src="js/lightbox.js"></script>
 	</head>
 	<body>
+	<div id="wrapper">
 		<header>
-			<div class="container">
 				<a href="index.html"><h1 class="logo">Anna Teglassy</h1></a>
-				<nav>
+				<nav class="clearfix">
 					<ul>	
 						<li><a href="#">Installation</a></li>
 						<li><a href="#">Portrait</a></li>
@@ -23,174 +25,56 @@
 						<li><a href="#">Linocut</a></li>
 					</ul>
 				</nav>
-			</div>
 		</header>
 
-<!--
-		<section class="tagline">
-			<div class="container">
-				<h1>View My Work</h1>
-			</div>
-		</section>
--->
-		<section>
-			<div class="container">
+		<div id="content">
 
 			<div id="home">
+					<div id="left">
 						<h2>Education:</h2>
 						2006 - 2011: University of Pécs, Faculty of Arts, painting department
 
 						<h2>Exhibitions:</h2>
 						<ul>
-						<li>2008 - House of Youth, Pécs  (H) (individual)</li>
-						<li>2008 - BAE, Art Expo Fresh, Mill of Art, Szentendre (H)(group)</li>
-						<li>2008 - Mitra Étterem, Budapest (H)(individual)</li>
-						<li>2008 - Art Unio Gallery, Szentendre (H)(individual)</li>
-						<li>2010 - Karlsruhe, Németország  (G)(group)</li>
-						<li>2010 - Nador Gallery, Pécs (H)(group)</li>
-						<li>2011 - National Library of Foreign Literature, Budapest (H)(individual)</li>
-						<li>2011 - Diploma in 2011, Nador Gallery, Pécs  (H)(group)</li>
-						<li>2013 - BAE, Art Expo Fresh, Mill of Art, Szentendre (H)(group)</li>
-						<li>2013 - Örkény Theatre, costume painting for the play Blue Angel, Budapest (group)</li>
-						<li>2013 - B55 Gallery, Budapest (group)</li>
-						<li>2014 – Müszi, Budapest (individual)</li>
+							<li>2008 - House of Youth, Pécs  (H) (individual)</li>
+							<li>2008 - BAE, Art Expo Fresh, Mill of Art, Szentendre (H)(group)</li>
+							<li>2008 - Mitra Étterem, Budapest (H)(individual)</li>
+							<li>2008 - Art Unio Gallery, Szentendre (H)(individual)</li>
+							<li>2010 - Karlsruhe, Németország  (G)(group)</li>
+							<li>2010 - Nador Gallery, Pécs (H)(group)</li>
+							<li>2011 - National Library of Foreign Literature, Budapest (H)(individual)</li>
+							<li>2011 - Diploma in 2011, Nador Gallery, Pécs  (H)(group)</li>
+							<li>2013 - BAE, Art Expo Fresh, Mill of Art, Szentendre (H)(group)</li>
+							<li>2013 - Örkény Theatre, costume painting for the play Blue Angel, Budapest (group)</li>
+							<li>2013 - B55 Gallery, Budapest (group)</li>
+							<li>2014 – Müszi, Budapest (individual)</li>
 						</ul>
+					</div>
+					<div id="right">
 						<h2>Scholarships:</h2>
 						<ul>
-						<li>2009 - Erasmus scholarship, Olomouc, Czech Republic</li>
-						<li>2010 - ERSTE Bank - Amadeus Creative Scholarship</li>
-						<li>2013 – Unicredit Bank – Small Creative Scholarship</li>
+							<li>2009 - Erasmus scholarship, Olomouc, Czech Republic</li>
+							<li>2010 - ERSTE Bank - Amadeus Creative Scholarship</li>
+							<li>2013 – Unicredit Bank – Small Creative Scholarship</li>
 						</ul>
+					</div>
 			</div>
 
-				<h1 id="heading">Installation</h1>
-				<ul id="gallery">
+			<h1 id="heading">Installation</h1>
+			<ul id="gallery" class="clearfix">
 
-					
-
-					<!--Installations-->
-
-					<li class="installation"><a href="img/1.jpg" data-lightbox="installation" data-title="Tape Directions" data-desc="Right direction designations on countryside: Füle, 2014"><img src="img/1.jpg"></a></li>
-					<li class="installation"><a href="img/2.jpg" data-lightbox="installation" data-title="Tape Directions" data-desc="Right direction designations on countryside: Füle, 2014"><img src="img/2.jpg"></a></li>
-					<li class="installation"><a href="img/3.jpg" data-lightbox="installation" data-title="Tape Directions" data-desc="Right direction designations on countryside: Szekszárd, 2014"><img src="img/3.jpg"></a></li>
-					<li class="installation"><a href="img/4.jpg" data-lightbox="installation" data-title="Tape Directions" data-desc="Right direction designations on countryside: Szekszárd, 2014"><img src="img/4.jpg"></a></li>
-					<li class="installation"><a href="img/5.jpg" data-lightbox="installation" data-title="Tape Directions" data-desc="Right direction designations on countryside: Szekszárd, 2014"><img src="img/5.jpg"></a></li>
-					<li class="installation"><a href="img/6.jpg" data-lightbox="installation" data-title="Tape Directions" data-desc="Right direction designations on countryside: Szekszárd, 2014"><img src="img/6.jpg"></a></li>
-					<li class="installation"><a href="img/7.jpg" data-lightbox="installation" data-title="Tape Directions" data-desc="Right direction designations on countryside: Szekszárd, 2014"><img src="img/7.jpg"></a></li>
-					<li class="installation"><a href="img/8.jpg" data-lightbox="installation" data-title="Tape Directions" data-desc="Right direction designations on countryside: Szekszárd, 2014"><img src="img/8.jpg"></a></li>
-					<li class="installation"><a href="img/9.jpg" data-lightbox="installation" data-title="Tape Directions" data-desc="Right direction designations at Müszi, Budapest, 2014"><img src="img/9.jpg"></a></li>
-				
-					<li class="cms"></li>
-					<li class="cms"></li>
-
-					<!--Maxi-->
-
-
-					<li class="maxi"><a href="img/kilog.jpg" data-lightbox="installation" data-title="Horse leg lolls out" data-desc="200 x 170cm oil on canvas, 2013"><img src="img/kilog-thumb.png"></a></li>
-					<li class="maxi"><a href="img/medvetanc.jpg" data-lightbox="installation" data-title="Tape Directions" data-desc="Right direction designations at Müszi, Budapest, 2014"><img src="img/medvetanc-thumb2.png"></a></li>
-					<li class="maxi"><a href="img/lajhar.jpg" data-lightbox="installation" data-title="Tape Directions" data-desc="Right direction designations at Müszi, Budapest, 2014"><img src="img/lajhar-thumb.png"></a></li>
-					<li class="maxi"><a href="img/balna.jpg" data-lightbox="installation" data-title="Tape Directions" data-desc="Right direction designations at Müszi, Budapest, 2014"><img src="img/balna-thumb.jpg"></a></li>
-					<li class="maxi"><a href="img/p1.jpg" data-lightbox="installation" data-title="Ezsö" data-desc="Right direction designations at Müszi, Budapest, 2014"><img src="img/p1-thumb2.jpg"></a></li>
-					<li class="maxi"><a href="img/p2.jpg" data-lightbox="installation" data-title="Zao" data-desc="Right direction designations at Müszi, Budapest, 2014"><img src="img/p2-thumb2.jpg"></a></li>
-					<li class="maxi"><a href="img/p3.jpg" data-lightbox="installation" data-title="Cas" data-desc="Right direction designations at Müszi, Budapest, 2014"><img src="img/p3-thumb2.jpg"></a></li>
-
-					<li class="maxi"><a href="img/p4.jpg" data-lightbox="installation" data-title="Tape Directions" data-desc="Right direction designations at Müszi, Budapest, 2014"><img src="img/p4-thumb2.jpg"></a></li>
-					<li class="maxi"><a href="img/p5.jpg" data-lightbox="installation" data-title="Tape Directions" data-desc="Right direction designations at Müszi, Budapest, 2014"><img src="img/p5-thumb2.jpg"></a></li>
-					<li class="maxi"><a href="img/p6.jpg" data-lightbox="installation" data-title="Tape Directions" data-desc="Right direction designations at Müszi, Budapest, 2014"><img src="img/p6-thumb2.jpg"></a></li>
-					<li class="maxi"><a href="img/p7.jpg" data-lightbox="installation" data-title="Tape Directions" data-desc="Right direction designations at Müszi, Budapest, 2014"><img src="img/p7-thumb2.jpg"></a></li>
-					<li class="maxi"><a href="img/p8.jpg" data-lightbox="installation" data-title="Tape Directions" data-desc="Right direction designations at Müszi, Budapest, 2014"><img src="img/p8-thumb2.jpg"></a></li>
-
-					
-
-					
-					<li class="mini"><a href="img/small/10.jpg" data-lightbox="mini" data-title="Mini tempera"><img src="img/small/10-thumb.jpg"></a></li>
-					<li class="mini"><a href="img/small/12.jpg" data-lightbox="mini" data-title="Mini tempera"><img src="img/small/12-thumb.jpg"></a></li>
-					<li class="mini"><a href="img/small/11.jpg" data-lightbox="mini" data-title="Mini tempera"><img src="img/small/11-thumb.jpg"></a></li>
-					<li class="mini"><a href="img/small/1b.jpg" data-lightbox="mini" data-title="Mini tempera"><img src="img/small/1b-thumb.jpg"></a></li>
-					<li class="mini"><a href="img/small/9.jpg" data-lightbox="mini" data-title="Mini tempera"><img src="img/small/9-thumb.jpg" width="100px"></a></li>
-					<li class="mini"><a href="img/small/5b.jpg" data-lightbox="mini" data-title="Mini tempera"><img src="img/small/5b-thumb.jpg" width="100px"></a></li>
-					<li class="mini"><a href="img/small/6b.jpg" data-lightbox="mini" data-title="Mini tempera"><img src="img/small/6b-thumb.jpg" width="100px"></a></li>
-					<li class="mini"><a href="img/small/5.jpg" data-lightbox="mini" data-title="Mini tempera"><img src="img/small/5-thumb.jpg" width="100px"></a></li>
-					<li class="mini"><a href="img/small/7.jpg" data-lightbox="mini" data-title="Mini tempera"><img src="img/small/7-thumb.jpg" width="100px"></a></li>
-					<li class="mini"><a href="img/small/3b.jpg" data-lightbox="mini" data-title="Mini tempera"><img src="img/small/3b-thumb.jpg" width="100px"></a></li>
-					<li class="mini"><a href="img/small/4b.jpg" data-lightbox="mini" data-title="Mini tempera"><img src="img/small/4b-thumb.jpg" width="100px"></a></li>
-					<li class="mini"><a href="img/small/7b.jpg" data-lightbox="mini" data-title="Mini tempera"><img src="img/small/7b-thumb.jpg" width="100px"></a></li>
-					<li class="mini"><a href="img/small/6.jpg" data-lightbox="mini" data-title="Mini tempera"><img src="img/small/6-thumb.jpg" width="100px"></a></li>
-					<li class="mini"><a href="img/small/16.jpg" data-lightbox="mini" data-title="Mini tempera"><img src="img/small/16-thumb.jpg" width="100px"></a></li>
-					<li class="mini"><a href="img/small/18.jpg" data-lightbox="mini" data-title="Mini tempera"><img src="img/small/18-thumb.jpg" width="100px"></a></li>
-					<li class="mini"><a href="img/small/20.jpg" data-lightbox="mini" data-title="Mini tempera"><img src="img/small/20-thumb.jpg" width="100px"></a></li>
-					<li class="mini"><a href="img/small/32.jpg" data-lightbox="mini" data-title="Mini tempera"><img src="img/small/32-thumb.jpg" width="100px"></a></li>
-					<li class="mini"><a href="img/small/40.jpg" data-lightbox="mini" data-title="Mini tempera"><img src="img/small/40-thumb.jpg" width="100px"></a></li>
-					<li class="mini"><a href="img/small/47.jpg" data-lightbox="mini" data-title="Mini tempera"><img src="img/small/47-thumb.jpg" width="100px"></a></li>
-					<li class="mini"><a href="img/small/56.jpg" data-lightbox="mini" data-title="Mini tempera"><img src="img/small/56-thumb.jpg" width="100px"></a></li>
-					<li class="mini"><a href="img/small/48b.jpg" data-lightbox="mini" data-title="Mini tempera"><img src="img/small/48b-thumb.jpg" width="100px"></a></li>
-					<li class="mini"><a href="img/small/75.jpg" data-lightbox="mini" data-title="Mini tempera"><img src="img/small/75-thumb.jpg" width="100px"></a></li>
-					<li class="mini"><a href="img/small/78.jpg" data-lightbox="mini" data-title="Mini tempera"><img src="img/small/78-thumb.jpg" width="100px"></a></li>
-					<li class="mini"><a href="img/small/80.jpg" data-lightbox="mini" data-title="Mini tempera"><img src="img/small/80-thumb.jpg" width="100px"></a></li>
-
-					<!--Portraits-->
-
-					<li class="portrait"><a href="img/portrait/nemo.jpg" data-lightbox="portrait" data-title="Nemo" data-desc="100 x 120cm, oil on canvas, 2012"><img src="img/portrait/nemo-thumb.jpg" width="100px"></a></li>
-					<li class="portrait"><a href="img/portrait/katinka2.jpg" data-lightbox="portrait" data-title="Katinka" data-desc="60 x 60cm oil on canvas, 2012"><img src="img/portrait/katinka2-thumb.jpg" width="100px"></a></li>
-					<li class="portrait"><a href="img/portrait/peti.jpg" data-lightbox="portrait" data-title="Peti" data-desc="40 x 70cm oil on board, 2012"><img src="img/portrait/peti-thumb.jpg" width="100px"></a></li>
-					<li class="portrait"><a href="img/portrait/kata.jpg" data-lightbox="portrait" data-title="Kata" data-desc="50 x 60 cm, oil on board, 2011"><img src="img/portrait/kata.jpg" width="100px"></a></li>
-					<li class="portrait"><a href="img/portrait/katinka.jpg" data-lightbox="portrait" data-title="Siesta" data-desc="100 x 130cm, oil on canvas, 2010"><img src="img/portrait/katinka-thumb.jpg" width="100px"></a></li>
-
-					<li class="portrait"><a href="img/portrait/ferenc.jpg" data-lightbox="portrait" data-title="Feri" data-desc="50 x 60 cm, oil on board, 2011"><img src="img/portrait/ferenc.jpg" width="100px"></a></li>
-					<li class="portrait"><a href="img/portrait/monika.jpg" data-lightbox="portrait" data-title="Monika" data-desc="50 x 60 cm, oil on board, 2011"><img src="img/portrait/monika.jpg" width="100px"></a></li>
-					<li class="portrait"><a href="img/portrait/anya.jpg" data-lightbox="portrait" data-title="Mum" data-desc="50 x 60 cm, oil on board, 2011"><img src="img/portrait/anya.jpg" width="100px"></a></li>
-					
-					<li class="portrait"><a href="img/portrait/szerdi.jpg" data-lightbox="portrait" data-title="Szerdi" data-desc="50 x 60 cm, oil on board, 2011"><img src="img/portrait/szerdi.jpg" width="100px"></a></li>
-					<li class="portrait"><a href="img/portrait/popi.jpg" data-lightbox="portrait" data-title="Popi" data-desc="50 x 60 cm, oil on board, 2011"><img src="img/portrait/popi.jpg" width="100px"></a></li>
-					<li class="portrait"><a href="img/portrait/bazsi.jpg" data-lightbox="portrait" data-title="Bazsi" data-desc="50 x 60 cm, oil on board, 2011"><img src="img/portrait/bazsi.jpg" width="100px"></a></li>
-					<li class="portrait"><a href="img/portrait/apa.jpg" data-lightbox="portrait" data-title="Dad" data-desc="50 x 60 cm, oil on board, 2011"><img src="img/portrait/apa.jpg" width="100px"></a></li>
-
-					<!--
-					<li class="portrait"><a href="img/portrait/dorka.jpg" data-lightbox="installation" data-title="Tape Directions" data-desc="Right direction designations at Müszi, Budapest, 2014"><img src="img/portrait/dorka.jpg" width="100px"></a></li>
-					-->
-
-					<li class="drawing"><a href="img/kroki1.jpg" data-lightbox="drawing" data-title="Kroki" data-desc="Walnut stain"><img src="img/kroki1-thumb.jpg" width="100px"></a></li>
-					<li class="drawing"><a href="img/kroki2.jpg" data-lightbox="drawing" data-title="Kroki" data-desc="Walnut stain"><img src="img/kroki2-thumb.jpg" width="100px"></a></li>
-					<li class="drawing"><a href="img/kroki3.jpg.jpg" data-lightbox="drawing" data-title="Kroki" data-desc="Walnut stain"><img src="img/kroki3-thumb.jpg" width="100px"></a></li>
-					<li class="drawing"><a href="img/kroki4.jpg" data-lightbox="drawing" data-title="Kroki" data-desc="Walnut stain"><img src="img/kroki4-thumb.jpg" width="100px"></a></li>
-					<li class="drawing"><a href="img/kroki5.jpg" data-lightbox="drawing" data-title="Kroki" data-desc="Walnut stain"><img src="img/kroki5-thumb.jpg" width="100px"></a></li>
-
-					<!--Linocut-->
-					<li class="linocut"><a href="img/istanbul.jpg" data-lightbox="linocut" data-title="Istanbul" data-desc="100 x 70cm, linocut, 2014"><img src="img/istanbul-thumb.png" width="100px"></a></li>
-					<li class="linocut"><a href="img/mk.jpg" data-lightbox="linocut" data-title="MK" data-desc="70 x 100cm, linocut, 2014"><img src="img/mk-thumb.png" width="100px"></a></li>
-					<li class="linocut"><a href="img/cseh_map.jpg" data-lightbox="linocut" data-title="Olomouc" data-desc="50 x 70cm, linocut, 2010"><img src="img/cseh_map-thumb.jpg" width="100px"></a></li>
-
-					<li class="linocut"><a href="img/daru.jpg" data-lightbox="linocut" data-title="Crain" data-desc="450 x 60cm, linocut, 2014"><img src="img/daru-thumb2.jpg" width="100px"></a></li>
-					
-					<li class="linocut"><a href="img/ko.jpg" data-lightbox="linocut" data-title="Stones" data-desc="450 x 60cm, linocut, 2014"><img src="img/ko-thumb2.jpg" width="100px"></a></li>
-
-					<li class="linocut"><a href="img/cseh/1.jpg" data-lightbox="linocut" data-title="Guidebook" data-desc="20 x 30cm, linocut, 2010"><img src="img/cseh/1.jpg" width="100px"></a></li>
-
-					<li class="linocut"><a href="img/cseh/2.jpg" data-lightbox="linocut" data-title="Guidebook" data-desc="20 x 30cm, linocut, 2010"><img src="img/cseh/2.jpg" width="100px"></a></li>
-
-					<li class="linocut"><a href="img/cseh/3.jpg" data-lightbox="linocut" data-title="Guidebook" data-desc="20 x 30cm, linocut, 2010"><img src="img/cseh/3.jpg" width="100px"></a></li>
-
-					<li class="linocut"><a href="img/cseh/7.jpg" data-lightbox="linocut" data-title="Guidebook" data-desc="20 x 30cm, linocut, 2010"><img src="img/cseh/7.jpg" width="100px"></a></li>					
-					
-				</ul>
-			</div>
-		</section>
+			</ul>
+		</div>
 
 		<footer>
-
-		<a href="http://www.annateglassy.tumblr.com"><img src="img/website.png"></a>
-		<a href="mailto:teglanna@gmail.com?Subject=Hello%20Anna" target="_top"><img src="img/email.png" alt="mailto"></a>
-		<a href="https://www.facebook.com/teglassy.anna"><img src="img/fb.png" alt="facebook-img"></a>
-		<a href="https://github.com/teglanna"><img src="img/github.png" alt="github-img"></a>
-		<a href="https://twitter.com/teglanna"><img src="img/twitter.png" alt="twitter-img"></a>
-		<a href="https://hu.linkedin.com/pub/anna-teglassy/b4/4a5/9b5"><img src="img/linkedin.png" alt="g+-img"></a>
-		<!--
-		<div>
-		<p><a href="http://www.annateglassy.tumblr.com"><img src="img/website.png"></a>
-		><a href="mailto:teglanna@gmail.com?Subject=Hello%20Anna" target="_top"><img src="img/email.png" alt="mailto" width="70px"></a>
-		<a href="https://www.facebook.com/teglassy.anna"><img src="img/fb.png" alt="facebook-img"></a>
-		<a href="https://github.com/teglanna"><img src="img/github.png" alt="github-img"></a>
-		<a href="https://twitter.com/teglanna"><img src="img/twitter.png" alt="twitter-img"></a>
-		<a href="https://hu.linkedin.com/pub/anna-teglassy/b4/4a5/9b5"><img src="img/linkedin.png" alt="g+-img"></a>
-		</p></div>-->
+			<a href="http://www.annateglassy.tumblr.com"><img src="img/website.png"></a>
+			<a href="mailto:teglanna@gmail.com?Subject=Hello%20Anna" target="_top"><img src="img/email.png" alt="mailto"></a>
+			<a href="https://www.facebook.com/teglassy.anna"><img src="img/fb.png" alt="facebook-img"></a>
+			<a href="https://github.com/teglanna"><img src="img/github.png" alt="github-img"></a>
+			<a href="https://twitter.com/teglanna"><img src="img/twitter.png" alt="twitter-img"></a>
+			<a href="https://hu.linkedin.com/pub/anna-teglassy/b4/4a5/9b5"><img src="img/in.png" alt="g+-img"></a>
 		</footer>
+
+	</div>
+	</body>
+</html>

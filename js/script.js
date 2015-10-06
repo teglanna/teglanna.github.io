@@ -55,7 +55,9 @@ $(document).ready(function() {
 	 	//Img opacity
 	 	//$('ul#gallery li img').css('opacity','0.4');		
 		//Create overlay div
+		
 		$(this).append('<div class="overlay"></div>');
+				
 		var overlay = $(this).children('.overlay');
 
 		//Add html to overlay
@@ -63,6 +65,8 @@ $(document).ready(function() {
 		
 		//Overlay fade in
 		overlay.fadeIn(800);
+
+		
 	});
 
 	//Mouseleave overlay
@@ -74,6 +78,8 @@ $(document).ready(function() {
 		//Overlay fade out
 		overlay.fadeOut(800);
 	});
+
+	
 
 	
 });
