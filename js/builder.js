@@ -54,32 +54,32 @@ displaywork();
 var projects = {
 	"projects" : [
 	{
-		"img": "images/pylvax.png",
+		"img": "img/pylvax.png",
 		"description": "I take part in organizing the one-day coding workshop for women at Budapest",
 		"url": "pylvax.com",
 	},
 	{
-		"img": "images/paint.png",
+		"img": "img/paint.png",
 		"description": "Static website for my artworks",
 		"url": "teglanna.github.io",
 	},
 	{
-		"img": "images/code.png",
+		"img": "img/code.png",
 		"description": "Django based site for code snippets and learning stuffs",
 		"url": "teglanna.pythonanywhere.com",
 	},
 	{
-		"img": "images/teglassy.png",
+		"img": "img/teglassy.png",
 		"description": "Wordpress site for my architect mother",
 		"url": "teglassy.hu",
 	},
 	{
-		"img": "images/tundemama.png",
+		"img": "img/tundemama.png",
 		"description": "Editing a tale blog and creating illustrations to it",
 		"url": "tundemamamesei.blogspot.hu",
 	},
 	{
-		"img": "images/megoldas.png",
+		"img": "img/megoldas.png",
 		"description": "My first static website",
 		"url": "megoldasproblemakra.hu",
 	},
@@ -130,7 +130,7 @@ social.display = function() {
 
 social.display();
 
-var maxiItems = ['images/bundi','images/medvetanc', 'images/kutyak','images/eb', 'images/zao','images/ezso', 'images/cas', 'images/susnyas'];
+var maxiItems = ['img/bundi','img/medvetanc', 'img/kutyak','img/eb', 'img/zao','img/ezso', 'img/cas', 'img/susnyas'];
 
 createMaxi = function(items) {
 		for (var i=0; i < items.length; i++){
