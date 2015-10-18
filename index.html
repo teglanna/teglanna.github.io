@@ -1,80 +1,121 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Art works</title>
-		<link rel="stylesheet" href="css/stylesheet.css">
-		<link rel="stylesheet" href="css/lightbox.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-		<script src="js/create.js"></script>
-		<script src="js/lightbox.js"></script>		
-		<script src="js/script.js"></script>
-	</head>
-	<body>
-	<div id="wrapper">
-		<header>
-				<a href="index.html"><h1 class="logo">Anna Teglassy</h1></a>
-				<nav class="clearfix">
-					<ul>	
-						<li><a href="#">Installation</a></li>
-						<li><a href="#">Portrait</a></li>
-						<li><a href="#">Drawing</a></li>
-						<li><a href="#">Maxi</a></li>
-						<li><a href="#">Mini</a></li>						
-						<li><a href="#">Linocut</a></li>
-					</ul>
-				</nav>
-		</header>
+<head>
+    <meta charset="utf-8">
+    <title>teglanna</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/stylesheet.css">
+    <link rel="stylesheet" href="style/lightbox.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+     <script src="js/jquery-1.11.2.min.js"></script>
+     <script src="js/jquery.scrollTo.min.js"></script>
+     <script src="js/jquery.localScroll.min.js"></script>
+     <script src="js/lightbox.js"></script>
+     <script src="js/helper.js"></script>
+     <script src="js/menu.js"></script>
+     <script type="text/javascript">
+        $(document).ready(function() {
+           $('#menu').localScroll({duration:500});
+        });
+    </script>
+</head>
 
-		<div id="content">
+<body>
+<header class="nav-down">
+    <nav>
+        <div class="navbar1">
+            <ul id="menu">
+                <li><a href="#whoami">whoami</a></li>
+                <li><a href="#before">: before</a></li>
+                <li><a href="#after">:: after</a></li>
+                <li><a href="#social">social</a></li>
+                <li><a href="#some_pic">some_pic</a></li>
+            </ul>
+        </div>
+        <div class="navbar2">
+            <div class="menuButton">menu</div>
+            <div class="menuContent">
+                <a href="#whoami">whoami</a>
+                <hr>
+                <a href="#before">: before</a>
+                <hr>
+                <a href="#after">:: after</a>
+                <hr>
+                <a href="#social">social</a>
+                <hr>
+                <a href="#some_pic">some_pic</a>
+            </div>
+        </div>   
+    </nav>
+    <ul class="contact">
+        <a href="http://www.linkedin.com/in/annateglassy" target="blank"><li><img src="images/linkedin.svg"></li></a>
+        <a href="http://www.github.com/teglanna" target="blank"><li><img id="github" src="images/github.svg"></li></a>
+        <a href="http://www.facebook.com/teglassy.anna" target="blank"><li><img src="images/fb.svg"></li></a>
+        <a href="http://twitter.com/teglanna"><li><img src="images/twitter.svg"></li></a>
+        <a href="http://www.annateglassy.tumblr.com"><li><img id="web" src="images/website.svg"></li></a>
+        </ul>
+</header>
 
-			<div id="home">
-					<div id="left">
-						<h2>Education:</h2>
-						2006 - 2011: University of Pécs, Faculty of Arts, painting department
+<a name="#"></a>
+<div class="row_title title"><img src="images/whoami.jpg"></div>
+<div class="row" id="whoami">
+    <div class="who">
+    <h2>Hi,</h2>
+        <p>
+        I'm Anna, junior web developer with intern-level experience in software-dev as well. </br>
+        Officially my background is fine art that is why I am super excited about UX and training daily basis myself to bond my IT and artistic interest.</br>
+        </p>
+        </br>
+        </br>
 
-						<h2>Exhibitions:</h2>
-						<ul>
-							<li>2008 - House of Youth, Pécs  (H) (individual)</li>
-							<li>2008 - BAE, Art Expo Fresh, Mill of Art, Szentendre (H)(group)</li>
-							<li>2008 - Mitra Étterem, Budapest (H)(individual)</li>
-							<li>2008 - Art Unio Gallery, Szentendre (H)(individual)</li>
-							<li>2010 - Karlsruhe, Németország  (G)(group)</li>
-							<li>2010 - Nador Gallery, Pécs (H)(group)</li>
-							<li>2011 - National Library of Foreign Literature, Budapest (H)(individual)</li>
-							<li>2011 - Diploma in 2011, Nador Gallery, Pécs  (H)(group)</li>
-							<li>2013 - BAE, Art Expo Fresh, Mill of Art, Szentendre (H)(group)</li>
-							<li>2013 - Örkény Theatre, costume painting for the play Blue Angel, Budapest (group)</li>
-							<li>2013 - B55 Gallery, Budapest (group)</li>
-							<li>2014 – Müszi, Budapest (individual)</li>
-						</ul>
-					</div>
-					<div id="right">
-						<h2>Scholarships:</h2>
-						<ul>
-							<li>2009 - Erasmus scholarship, Olomouc, Czech Republic</li>
-							<li>2010 - ERSTE Bank - Amadeus Creative Scholarship</li>
-							<li>2013 – Unicredit Bank – Small Creative Scholarship</li>
-						</ul>
-					</div>
-			</div>
+        <h3>About this site</h3>
+        <p>
+        In the :before menu you can find my jobs and my intern, and the ::after contains what I did after I realized I have something to do with html,ccs and coding. 
+        </p>
+        </br>
+        </br>
+    </div>    
+</div>
 
-			<h1 id="heading">Installation</h1>
-			<ul id="gallery" class="clearfix">
+<a name="before"></a>
+<div class="row_title"></div>
+<div class="row_title title"><img src="images/before.jpg"></div>
+    <div class="row clearfix" id="work">
+        <ul>
+        </ul>
+    </div>
 
-			</ul>
-		</div>
 
-		<footer>
-			<a href="http://www.annateglassy.tumblr.com"><img src="img/website.png"></a>
-			<a href="mailto:teglanna@gmail.com?Subject=Hello%20Anna" target="_top"><img src="img/email.png" alt="mailto"></a>
-			<a href="https://www.facebook.com/teglassy.anna"><img src="img/fb.png" alt="facebook-img"></a>
-			<a href="https://github.com/teglanna"><img src="img/github.png" alt="github-img"></a>
-			<a href="https://twitter.com/teglanna"><img src="img/twitter.png" alt="twitter-img"></a>
-			<a href="https://hu.linkedin.com/pub/anna-teglassy/b4/4a5/9b5"><img src="img/in.png" alt="g+-img"></a>
-		</footer>
 
-	</div>
-	</body>
+<a name="after"></a>
+<div class="row_title"></div>
+<div class="row_title title"><img src="images/after.jpg"></div>
+  <div class="row clearfix" id="project">
+    <ul>
+    </ul>
+  </div>
+
+<a name="social"></a>
+<div class="row_title"></div>
+<div class="row_title title"><img src="images/social.jpg"></div>
+    <div class="row clearfix" id="soci">
+        <div id="soc">
+        <ul>
+        </ul>
+        </div>
+    </div>
+
+<a name="some_pic"></a>
+<div class="row_title"></div>
+<div class="row_title title"><img src="images/some_pic.jpg"></div>
+    <div class="row clearfix" id="some">
+    <ul>
+    </ul>
+    </div>
+
+    <footer>See more at: <a href="http://teglanna.github.io/art.html" target="blank"> art.annateglassy.com </a> / <a href="http://annateglassy.tumblr.com" target="blank"> annateglassy.tumblr.com </a></footer>
+
+    <script src="js/builder.js"></script>
+</body>
+
 </html>
