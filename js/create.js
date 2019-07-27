@@ -7,7 +7,7 @@ $(document).ready(function() {
 	maxiItems = ['img/kilog', 'img/medvetanc', 'img/lajhar', 'img/balna', 'img/ezso', 'img/zao', 'img/cas', 'img/susnyas', 'img/bundi', 'img/eb', 'img/kutyak', 'img/lajhar-port'];
 	miniItems = ['img/small/10', 'img/small/12', 'img/small/11', 'img/small/1b', 'img/small/9', 'img/small/5b', 'img/small/6b', 'img/small/5', 'img/small/7', 'img/small/3b', 'img/small/4b', 'img/small/7b', 'img/small/6', 'img/small/16', 'img/small/18', 'img/small/20', 'img/small/32', 'img/small/40', 'img/small/47', 'img/small/56', 'img/small/48b', 'img/small/75', 'img/small/78', 'img/small/80' ];
 	linoItems = ["img/lino/istanbul", "img/lino/mk", "img/lino/cseh_map", "img/lino/daru", "img/lino/ko", "img/lino/1", "img/lino/2", "img/lino/3", "img/lino/7"];
-
+	collageItems = ["img/collage/1", "img/collage/2", "img/collage/3", "img/collage/4", "img/collage/5", "img/collage/6", "img/collage/7", "img/collage/8"];
 
 	//Create functions
 
@@ -47,6 +47,12 @@ $(document).ready(function() {
 		}
 	};
 
+	createCollage = function(items) {
+		for (var i=0; i < items.length; i++){
+			$('#gallery').append('<li class="collage"><a href="' + collageItems[i]+ '.jpg" data-lightbox="collage" data-title="Collage"><img src='+collageItems[i]+'-thumb.jpg></li>');
+		}
+	};
+
 
 	createIntallation(installationItems);
 	
@@ -59,4 +65,6 @@ $(document).ready(function() {
 	createLino(linoItems);
 
 	createMini(miniItems);
+
+	createCollage(collageItems);
 });
