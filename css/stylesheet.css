@@ -369,7 +369,6 @@ body {
   font-family: Ubuntu;
   font-size: 16px;
   color: #666;
-  line-height: 1.6em;
 }
 ul {
   list-style: none;
@@ -387,6 +386,7 @@ h6 {
 }
 li {
   list-style: none;
+  height: 2.5rem;
 }
 a {
   text-decoration: none;
@@ -533,13 +533,13 @@ footer img {
   background: #94d3e8;
   color: white;
   cursor: pointer;
-  font-size: 2rem;
+  font-size: 1.5rem;
   height: 100vh;
   left: -40rem;
-  padding: 6rem 2rem 2rem 2rem;
+  padding: 2rem 2rem 2rem 4rem;
   position: fixed;
   top: 0;
-  width: 20rem;
+  width: 10rem;
   z-index: 1;
 }
 
@@ -562,10 +562,10 @@ footer img {
   user-select: none;
   cursor: pointer;
   height: 2rem;
-  left: 2rem;
+  left: 1rem;
   position: fixed;
-  top: 2rem;
-  width: 3.6rem;
+  top: 1rem;
+  width: 3rem;
   z-index: 2;
 }
 
@@ -582,7 +582,7 @@ footer img {
   -ms-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
-  background: #3E3D3D;
+  background: #666;
   content: '';
   height: 0.4rem;
   width: 100%;
@@ -597,7 +597,7 @@ footer img {
 .nav-toggle.expanded .nav-toggle-bar { background: transparent; }
 
 .nav-toggle.expanded .nav-toggle-bar::after, .nav-toggle.expanded .nav-toggle-bar::before {
-  background: #3E3D3D;
+  background: #666;
   margin-top: 0;
 }
 
