@@ -53,6 +53,19 @@ $(document).ready(function() {
 		}
 	};
 
+	createGallery = function(items, menuItem) {
+		for (var i=0; i < items.length; i++){
+			$('#gallery').append('<li class='+menuItem+'><a href="' + items[i]+ '.jpg" data-lightbox="collage" data-title='+menuItem+'><img src='+items[i]+'.jpg></li>');
+		}
+	};
+
+	drawings = ["img/drawings/1", "img/drawings/2", "img/drawings/3", "img/drawings/4", "img/drawings/5", "img/drawings/6", "img/drawings/7", "img/drawings/8"];
+	biobank = ["img/biobank/1", "img/biobank/2", "img/biobank/6", "img/biobank/7", "img/biobank/8", "img/biobank/9","img/biobank/10",
+		"img/biobank/11", "img/biobank/12", "img/biobank/13", "img/biobank/14", "img/biobank/15", "img/biobank/16", "img/biobank/17", "img/biobank/20", "img/biobank/21"];
+
+	createGallery(drawings, 'countryside');
+	createGallery(biobank, 'biobank');
+
 
 	createIntallation(installationItems);
 	

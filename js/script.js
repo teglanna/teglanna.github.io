@@ -1,5 +1,12 @@
 $(document).ready(function() {
 
+    $('.nav-toggle').on('click', function(){
+    	$(this).toggleClass('expanded');
+    	$('.nav').toggleClass('expanded');
+    });
+    $('.menu-item').on('click', function(){
+    	$(".expanded").removeClass('expanded')
+    });
 	$('#home').show();
 	$('ul#gallery').hide();
 	$('h1#heading').hide();
@@ -13,7 +20,7 @@ $(document).ready(function() {
 	 	$(this).parent().addClass();
 
 	 	//Set heading
-	 	$('h1#heading').text($(this).text());
+	 	//$('h1#heading').text($(this).text());
 
 	 	//Get & filter link text
 	 	var category = $(this).text().toLowerCase().replace(' ','-');
@@ -56,15 +63,15 @@ $(document).ready(function() {
 	 	//$('ul#gallery li img').css('opacity','0.4');		
 		//Create overlay div
 		
-		$(this).append('<div class="overlay"></div>');
+		//$(this).append('<div class="overlay"></div>');
 				
-		var overlay = $(this).children('.overlay');
+		//var overlay = $(this).children('.overlay');
 
 		//Add html to overlay
-		overlay.html('<h3>'+title+'</h3><p>'+desc+'</p>');
+		//overlay.html('<h3>'+title+'</h3><p>'+desc+'</p>');
 		
 		//Overlay fade in
-		overlay.fadeIn(800);
+		//overlay.fadeIn(800);
 
 		
 	});
