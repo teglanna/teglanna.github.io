@@ -13,7 +13,7 @@ $(document).ready(function() {
 
 	createIntallation = function(items) {
 		for (var i=0; i < items.length; i++){
-			$('#gallery').append('<li class="installation"><a href="' + items[i]+ '"data-lightbox="installation" data-title="Tape Directions" data-desc="Right direction assignment Füle/Szekszárd, 2014"><img src='+items[i]+'></li>');
+			$('#gallery').append('<li class="guidelines"><a href="' + items[i]+ '"data-lightbox="guidelines" data-title="Tape Directions" data-desc="Right direction assignment Füle/Szekszárd, 2014"><img src='+items[i]+'></li>');
 		}						
 	};
 
@@ -53,18 +53,27 @@ $(document).ready(function() {
 		}
 	};
 
-	createGallery = function(items, menuItem) {
+	createGallery = function(items, menuItem, text) {
 		for (var i=0; i < items.length; i++){
 			$('#gallery').append('<li class='+menuItem+'><a href="' + items[i]+ '.jpg" data-lightbox="collage" data-title='+menuItem+'><img src='+items[i]+'.jpg></li>');
 		}
+		$('#gallery').append('<p class="desc"></p>');
+		//$('.desc').text(text);
 	};
 
+	var desc_text = $('<p class="text"></p>');
+
+	var biobank_text = 'ez egy szoveg'
 	drawings = ["img/drawings/1", "img/drawings/2", "img/drawings/3", "img/drawings/4", "img/drawings/5", "img/drawings/6", "img/drawings/7", "img/drawings/8"];
 	biobank = ["img/biobank/1", "img/biobank/2", "img/biobank/6", "img/biobank/7", "img/biobank/8", "img/biobank/9","img/biobank/10",
 		"img/biobank/11", "img/biobank/12", "img/biobank/13", "img/biobank/14", "img/biobank/15", "img/biobank/16", "img/biobank/17", "img/biobank/20", "img/biobank/21"];
 
+	istanbul = ["img/istanbul/1", "img/istanbul/2", "img/istanbul/3", "img/istanbul/4", "img/istanbul/5", "img/istanbul/6", "img/istanbul/7", "img/istanbul/8",
+	"img/istanbul/9", "img/istanbul/10", "img/istanbul/11", "img/istanbul/12", "img/istanbul/13", "img/istanbul/14", "img/istanbul/15", "img/istanbul/16",];
+
 	createGallery(drawings, 'countryside');
-	createGallery(biobank, 'biobank');
+	createGallery(biobank, 'biobank', biobank_text);
+	createGallery(istanbul, 'istanbul');
 
 
 	createIntallation(installationItems);
@@ -73,7 +82,7 @@ $(document).ready(function() {
 
 	createPortrait(portraitItems);
 
-	createKroki(krokiItems);
+	//createKroki(krokiItems);
 
 	createLino(linoItems);
 
